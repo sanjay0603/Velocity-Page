@@ -1,0 +1,26 @@
+@mixin button {
+    border: 1px solid $color;
+    background: transparent;
+    margin-left: 10px;
+    padding: 14px 38px;
+    color: $color;
+    border-radius: 6px;
+  }
+  @mixin h2 {
+    color: $color;
+    text-align: $center;
+  }
+  @mixin heading2 {
+    color: #676770;
+    font-size: 30px;
+    font-weight: $Fweight;
+    text-align: $center;
+    letter-spacing: 5px;
+  }
+  @mixin heading6 {
+    color: #8e8e9c;
+    font-size: 18px;
+    font-weight: $Fweight;
+    text-align: $center;
+    letter-spacing: 3px;
+  }
